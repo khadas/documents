@@ -2,8 +2,9 @@
 
 
 **Preperations:**
-* Ubuntu
-* Install toolchains for Amlogic platform
+* [Establishing a Build Environment](http://source.android.com/source/initializing.html)
+* [Downloading the Android Source](https://github.com/khadas/documents/blob/master/DownloadAndroidSourceCode.md)
+* [Install toolchains for Amlogic platform](https://github.com/khadas/documents/blob/master/InstallToolchainsForAmlogicPlatform.md)
 
 
 **Build U-Boot:**
