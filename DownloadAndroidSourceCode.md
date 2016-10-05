@@ -7,7 +7,7 @@
 **Steps:**
 * Create a working directory for Android marshmallow:
 ```sh
-$ mkdir ~/project/vim/mmallow
+$ mkdir -p ~/project/vim/mmallow
 ```
 * Run `repo init` to bring down the Repo:
 ```sh
