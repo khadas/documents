@@ -1,11 +1,14 @@
 # Building Android Source Code
 
 
-**Preperations:**
-* [Establishing a Build Environment](http://source.android.com/source/initializing.html)
-* [Downloading the Android Source](https://github.com/khadas/documents/blob/master/DownloadAndroidSourceCode.md)
-* [Install toolchains for Amlogic platform](https://github.com/khadas/documents/blob/master/InstallToolchainsForAmlogicPlatform.md)
+## Preperations:
+- [x] [Establishing a Build Environment](http://source.android.com/source/initializing.html)
+- [x] [Downloading the Android Source](https://github.com/khadas/documents/blob/master/DownloadAndroidSourceCode.md)
+- [x] [Install toolchains for Amlogic platform](https://github.com/khadas/documents/blob/master/InstallToolchainsForAmlogicPlatform.md)
 
+
+## Building
+*Notice: Before you start to build, make sure you have done all the `Preperations` listed above.*
 
 **Build U-Boot:**
 ```sh
@@ -43,4 +46,6 @@ $ source device/khadas/kvim/mkern.sh
 ```
 
 
-**See also:**
+## See Also:
+* [Upgrade Via an USB Cable](https://github.com/khadas/documents/blob/master/UpgradeViaUSBCable.md)
+* [Upgrade Via a Burnning TF Card](https://github.com/khadas/documents/blob/master/UpgradeViaTFBurningCard.md)
