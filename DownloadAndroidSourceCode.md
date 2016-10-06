@@ -1,21 +1,24 @@
-# Download the Android Source Code 
+# Download the Android Source Code
 
-**Tips:**
+
+## Overview
 * All source code are released at: https://www.github.com/khadas
 * Guidance for new starter: https://www.github.com/khadas/guide
 
-**Steps:**
-* Create a working directory for Android marshmallow:
+
+## Steps to download Android source code
+* **Create an empty directory to hold your working files:**
 ```sh
 $ mkdir -p ~/project/vim/mmallow
-```
-* Run `repo init` to bring down the Repo:
-```sh
 $ cd ~/project/vim/mmallow
+```
+
+* **Run `repo init` to bring down the repositories:**
+```sh
 $ repo init -u https://github.com/khadas/android_manifest.git
 ```
 
-* Pull down the Android source tree:
+* **Run `repo sync` to pull down the Android source tree:**
 ```sh
 $ repo sync -j4
 ```
@@ -31,11 +34,23 @@ bootable  developers   fbc3-release  Makefile         platform_testing  uboot
 build     development  frameworks    ndk              prebuilts         vendor
 $
 ```
-When everything is done, recommended to create your own branch:
+
+*Tips: you might need to run above command repeatly if it failed halfway. Or you can try with below script instead:*
+```sh
+#!/bin/bash
+repo sync -j4
+while [ $? = 1 ]; do
+	echo "Sync failed, repeat again:"
+	repo sync -j4
+done
+```
+
+* **Create a new branch for development:**
 ```sh
 $ repo start Vim --all
 ```
 
-**See also:**
+
+## Further Reading
 * [Android official documents](https://source.android.com/source/downloading.html)
 * [Build Android Source Code](https://github.com/khadas/documents/blob/master/BuildingAndroid.md)
