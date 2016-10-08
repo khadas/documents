@@ -23,6 +23,7 @@ Gernerated images:
 
 **Build Android:**
 ```sh
+$ cd ~/project/vim/mmallow
 $ source build/envsetup.sh
 $ lunch kvim-user-32
 $ make -jN otapackage
