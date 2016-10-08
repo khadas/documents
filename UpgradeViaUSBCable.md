@@ -28,4 +28,4 @@ Have Fun!
 **See also:**
 
 1. [Upgrade Via a TF Burning Card](https://github.com/khadas/documents/blob/master/UpgradeViaTFBurningCard.md)
-2. [Other Methods to Enter Into Upgrade Mode](https://github.com/khadas/documents/blob/master/All_upgrade_mode_mothods.md)
+2. [Howto Boot Into Upgrade Mode](https://github.com/tomatotech/documents/blob/master/HowtoBootIntoUpgradeMode.md)
