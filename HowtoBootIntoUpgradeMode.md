@@ -19,7 +19,7 @@ Vim# run update
 ```
 
 
-### Force Mode(Maskrom Mode)
+### MRegister Mode(Maskrom Mode)
 1. Power on Vim.
 2. Use a tweezer to short-circuit the two pads of `M` register and without release.
 3. Short press `Reset` key and release it to boot into upgrade mode
